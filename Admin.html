@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="icon" href="iconv50.png">
+        <title>Notice Board</title>
+        
+        <link rel="stylesheet" href ="new.css">
+        <link rel="stylesheet" href="admin.css">
+        <script src="./Validating.js"></script>
+    </head>
+    <body >
+        <nav class="navbar page-navbar">
+            <div class="logo">
+                <a href="index.php" class="Projname">
+                    <li type="None">Notice <li type="None" class="li22">&nbsp;Board</li></li>
+                </a>
+            </div>
+            <div class = "menu">    
+                <ul type="None">
+                    <li class="disabled"><a href="Admin.html">Admin</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Feedback.html">Feedback</a></li>
+                </ui>
+            </div>
+        </nav>
+        <section>
+            <h1 class="c_blue">Login Form</h1>
+            <form action="action.php" method="post" onsubmit="validate()">
+                <div >
+                    <img src="/imgs/user.png" alt="Avatar" class="avatar">
+                </div>
+                <div class="container">
+                    <label for="uname"><b>Username</b></label><br>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                    <br>
+                    <label for="psw"><b>Password</b></label><br>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                    <br>
+                    <button type="submit" name="add">Login</button>
+                </div>
+            </form>
+        </section>
+    </body>
+</html>

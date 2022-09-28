@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <link rel="icon" href="software.png">
+        <title>Notice Board</title>
+        
+        <link rel="stylesheet" href ="new.css">
+        <link rel="stylesheet" href="admin.css">
+        <style type="text/css">
+            button {
+                margin-bottom: 10px;
+                margin-left: 25%;
+                margin-right: auto;
+                width: 50%;
+            }
+        </style>
+
+    </head>
+    <body >
+
+        <nav class="navbar page-navbar">
+            <div class="logo">
+                <a href="index.php" class="Projname">
+                    <li type="None">Notice <li type="None" class="li22">&nbsp;Board</li></li>
+                </a>
+            </div>
+            <div class = "menu">    
+                <ul type="None">
+                    <li><a href="Admin.html">Admin</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li class="disabled"><a href="Feedback.html">Feedback</a></li>
+                </ui>
+            </div>
+        </nav>
+        <section>
+            <h1 class="c_blue">Feedback</h1>
+            <form>
+                <div class="container">
+                    <label>Your Answer</label>
+                    <textarea id="newAnswerBody" rows="5" name="newAnswerBody" style="height: 122px;" required=""></textarea>
+                </div>
+                <div class="container">
+                    <label for="feedback_user_name">Your Name</label>
+                    <input type="text" name="guest_user_name" id="guest_user_name" placeholder="Your name" required="">
+                </div>
+                <div class="container">
+                    <label for="email">Email</label>
+                    <input type="email" name="guest_user_email" id="guest_user_email" placeholder="YourEmail@gmail.com" required="">
+                </div>
+                <button type="submit">Submit Answer</button>
+            </form>
+        </section>
+    </body>
+</html>
