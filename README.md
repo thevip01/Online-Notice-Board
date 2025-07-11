@@ -1,4 +1,4 @@
-# 📌 Online Notice Board
+# 📌 Online Notice Board (College Project)
 
 The **Online Notice Board** is a web-based platform where users can post, view, and manage notices or announcements. It provides a digital space for organizations (e.g., schools, offices, communities) to communicate important information to their audience via computers, tablets, and mobile devices.
 
